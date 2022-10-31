@@ -8,9 +8,6 @@ defmodule BSON.Encoder do
   def encode(false),
     do: 0x00
 
-  def encode(nil),
-    do: ""
-
   def encode(:BSON_min),
     do: ""
 
